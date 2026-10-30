@@ -342,3 +342,7 @@ h1,h2,h3,h4,.btn,.eyebrow,.num{font-family:Poppins,Montserrat,sans-serif}
   .swoosh path,.tick path{stroke-dashoffset:0!important}
   #preloader{display:none}
 }
+/* Fix: prevent the preloader from blocking the page */
+#preloader {
+  display: none !important;
+}
