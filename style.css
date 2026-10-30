@@ -12,3 +12,15 @@
 @media(max-width:680px){.container{width:min(100% - 36px,560px)}.site-header{height:72px}.menu-toggle{display:block;cursor:pointer}.site-nav{display:none;position:absolute;left:0;right:0;top:71px;background:#fff;padding:18px 24px 24px;box-shadow:0 15px 25px rgba(16,36,58,.1);flex-direction:column;align-items:stretch;gap:0}.site-nav.open{display:flex}.site-nav>a{padding:12px 0;border-bottom:1px solid #edf0f2}.site-nav .nav-contact{margin-top:12px;text-align:center;padding:13px}.hero{padding:75px 0 27px}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(47px,13vw,66px)}.hero-lead{font-size:14px}.hero-proof{margin-top:35px}.hero-visual{height:335px;margin-top:16px}.hero-bottom{margin-top:55px;display:block}.hero-bottom>span{display:block;margin-bottom:14px}.service-marquee{gap:12px;font-size:9px}.intro-grid,.approach-grid,.work-grid,.contact-grid{grid-template-columns:1fr;gap:25px}.intro-content{padding-top:0}.intro h2,.section-heading h2,.approach h2,.work h2,.contact h2{font-size:38px}.section-heading{display:block;margin-bottom:35px}.section-heading>p{margin-top:20px}.service-grid{gap:10px}.service-card{padding:20px 16px;min-height:290px}.service-card>a{left:16px}.service-card h3{font-size:15px}.service-card p{font-size:11px}.approach-grid{gap:45px}.process-grid{grid-template-columns:repeat(2,1fr);gap:30px 20px}.work-grid{gap:35px}.work-art{height:245px}.work-art-window{width:75%}.contact-details{padding-top:10px}.footer-top{gap:15px;flex-wrap:wrap}.footer-top>p{order:3;width:100%}.footer-bottom{gap:10px;flex-direction:column}.floating-whatsapp{width:50px;height:50px;right:15px;bottom:15px}}
 @media(max-width:380px){.service-grid{grid-template-columns:1fr}.service-card{min-height:245px}.service-icon{margin-bottom:20px}.hero-actions{gap:16px;flex-wrap:wrap}.float-card{transform:scale(.88)}.card-visibility{left:-4px}.card-engagement{right:-7px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+.brand-logo {
+  display: block;
+  width: 165px;
+  height: 48px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.brand-footer .brand-logo {
+  width: 165px;
+  height: 48px;
+}
